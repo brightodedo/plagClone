@@ -43,3 +43,43 @@
     object-fit: contain;
     object-position: center center;
 }
+
+.nav-research{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.nav-research  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-end;
+    font-size: 15px;
+}
+.nav-top > ul {
+    list-style-type: none;
+    word-break: none;
+    word-wrap: none;
+    padding: 0px;
+}
+
+.nav-hover ul li, .nav-about ul li {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-hover, .nav-about{
+    position: absolute;
+    right: 0%;
+    display: initial;
+}

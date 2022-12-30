@@ -18,17 +18,18 @@ function NavBar() {
   return (
     <div className='navbar'>
         <div className="website-logo">
-          <img src={logo} alt="Website logo" />
+          <Link to='/'><img src={logo} alt="Website logo" /></Link>
         </div>
 
         <div className="nav-items">
             <ul className="nav-links">
-              <li>Home</li>
-              <li>Mission</li>
+
+              <Link to='/'><li>Home</li></Link>
+              <Link to='/mission'><li>Mission</li></Link>
               <div className="nav-research">
                 <div className="nav-top">
                   <ul>
-                    <li onMouseEnter={() => handleDisplayOnHover("nav-hover")} onMouseLeave = { () => handleDisplayOffHover("nav-hover")} >Research</li>
+                    <Link><li onMouseEnter={() => handleDisplayOnHover("nav-hover")} onMouseLeave = { () => handleDisplayOffHover("nav-hover")} >Research</li></Link>
                   </ul>
                 </div>
                 { 
@@ -36,10 +37,10 @@ function NavBar() {
                 ? 
                   <div className="nav-hover">
                     <ul>
-                      <li>Current Projects</li>
-                      <li>Collaboration</li>
-                      <li>Publications</li>
-                      <li>Funding and Acknowledgments</li>
+                      <Link><li>Current Projects</li></Link>
+                      <Link><li>Collaboration</li></Link>
+                      <Link><li>Publications</li></Link>
+                      <Link><li>Funding and Acknowledgments</li></Link>
                     </ul>
                   </div> 
                 :
@@ -47,11 +48,11 @@ function NavBar() {
                   }
                 
               </div>
-              <li>Blog</li>
+              <Link><li>Blog</li></Link>
               <div className="nav-research">
                 <div className="nav-top">
                   <ul>
-                    <li onMouseEnter={() => handleDisplayOnHover("nav-about")} onMouseLeave = {() => handleDisplayOffHover("nav-about")}>About</li>
+                    <Link><li onMouseEnter={() => handleDisplayOnHover("nav-about")} onMouseLeave = {() => handleDisplayOffHover("nav-about")}>About</li></Link>
                   </ul>
                 </div>
                 {
@@ -59,17 +60,17 @@ function NavBar() {
                 ?
                 <div className="nav-about">
                   <ul>
-                    <li>Dr. Parent</li>
-                    <li>Personnel: Current</li>
-                    <li>Personnel: Former</li>
+                    <Link><li>Dr. Parent</li></Link>
+                    <Link><li>Personnel: Current</li></Link>
+                    <Link><li>Personnel: Former</li></Link>
                   </ul>
                 </div>
                 :
                 <></>
               }
               </div>
-              <li>Photo Gallery</li>
-              <li>Contact</li>
+              <Link><li>Photo Gallery</li></Link>
+              <Link><li>Contact</li></Link>
             </ul>
         </div>
     </div>

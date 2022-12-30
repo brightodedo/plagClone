@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route} from "react-router-dom"
 import NotFound from '../NotFound/NotFound';
 import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
+import Mission from '../Mission/Mission';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Routes>
           {/* Declare individual routes under */}
           <Route path='/' element={< Home/>} />
+          <Route path='/mission' element={<Mission/>} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         </div>

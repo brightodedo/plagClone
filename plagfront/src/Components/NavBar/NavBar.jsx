@@ -70,7 +70,7 @@ function NavBar() {
               }
               </div>
               <Link><li>Photo Gallery</li></Link>
-              <Link><li>Contact</li></Link>
+              <Link to='/contact'><li>Contact</li></Link>
             </ul>
         </div>
     </div>

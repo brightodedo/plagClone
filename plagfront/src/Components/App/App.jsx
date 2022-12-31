@@ -6,6 +6,7 @@ import NotFound from '../NotFound/NotFound';
 import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
 import Mission from '../Mission/Mission';
+import Contact from '../Contact/Contact';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           {/* Declare individual routes under */}
           <Route path='/' element={< Home/>} />
           <Route path='/mission' element={<Mission/>} />
+          <Route path='/contact' element={< Contact/>} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         </div>

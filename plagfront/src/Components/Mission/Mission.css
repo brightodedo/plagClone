@@ -1,0 +1,52 @@
+@import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
+@font-face {
+    font-family: avenir-lt;
+    src: url('../../Fonts/Avenir\ LT\ 35\ Light.ttf');
+}
+
+.mission-page{
+    background-color: rgb(247,247,247);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mission-body p a{
+    color: black;
+    text-decoration: underline;
+}
+
+.mission-border{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mission-body p {
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+    font-family: avenir-lt;
+    font-weight: 550;
+    margin: 0px;
+}
+
+.mission-header p{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 72px;
+    margin: 121px 0px 25px 0px;
+    font-family: BrandonGrotW01-Light, brandon-grot-w01-light, brandon-grot-w05-light,sans-serif;
+}
+
+.mission-image img{
+    width: 940px;
+    height: 525px;
+    object-fit: contain;
+    object-position: center center;
+    margin: 54px 0px 60px 0px;
+}

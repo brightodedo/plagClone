@@ -9,7 +9,7 @@ import carousel3 from '../../Assets/carousel3.jpeg'
 function Home() {
   return (
     <div>
-        <Carousel interval={2500} autoPlay={false} infiniteLoop={true} showArrows={false} showIndicators={true} showStatus={false} >
+        <Carousel interval={2500} autoPlay={true} infiniteLoop={true} showArrows={false} showIndicators={true} showStatus={false} >
                 <div>
                     <img src={carousel1} />
                 </div>

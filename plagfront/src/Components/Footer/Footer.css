@@ -100,3 +100,7 @@
     font-weight: 550;
 }
 
+.math{
+    width: 2fr;
+    height: repeat(auto-fit, minmax(12rem, 25rem));
+}

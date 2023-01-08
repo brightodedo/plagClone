@@ -1,0 +1,61 @@
+.research-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.research-page-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(247,247,247);
+    padding: 120px 0px;
+}
+.research-page-container{
+    width: 802px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.research-image img{
+    height : 440px;
+    width: 500px;
+}
+
+.research-page-container p.research-text{
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 72px;
+    margin: 0px;
+    font-family: BrandonGrotW01-Light, brandon-grot-w01-light, brandon-grot-w05-light,sans-serif;
+}
+
+.research-page-container p.research-overview{
+    text-align: center;
+    line-height: 1.67em;
+    font-size: 20px;
+    font-family: avenir-lt;
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.research-page-container > p{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    line-height: 1.875em;
+    text-align: center;
+    font-size: 15px;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+}

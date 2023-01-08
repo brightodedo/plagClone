@@ -7,6 +7,8 @@ import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
 import Mission from '../Mission/Mission';
 import Contact from '../Contact/Contact';
+import Research from '../Research/Research';
+import Collaboration from '../Collaboration/Collaboration';
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
           <Route path='/' element={< Home/>} />
           <Route path='/mission' element={<Mission/>} />
           <Route path='/contact' element={< Contact/>} />
+          <Route path='/research' element={<Research />} />
+          < Route path='/collaboration' element={<Collaboration />}/>
           <Route path='*' element={<NotFound />} />
         </Routes>
         </div>

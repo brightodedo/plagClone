@@ -29,7 +29,7 @@ function NavBar() {
               <div className="nav-research">
                 <div className="nav-top">
                   <ul>
-                    <Link><li onMouseEnter={() => handleDisplayOnHover("nav-hover")} onMouseLeave = { () => handleDisplayOffHover("nav-hover")} >Research</li></Link>
+                    <Link to='/research'><li onMouseEnter={() => handleDisplayOnHover("nav-hover")} onMouseLeave = { () => handleDisplayOffHover("nav-hover")} >Research</li></Link>
                   </ul>
                 </div>
                 { 
@@ -38,7 +38,7 @@ function NavBar() {
                   <div className="nav-hover">
                     <ul>
                       <Link><li>Current Projects</li></Link>
-                      <Link><li>Collaboration</li></Link>
+                      <Link to='/collaboration'><li>Collaboration</li></Link>
                       <Link><li>Publications</li></Link>
                       <Link><li>Funding and Acknowledgments</li></Link>
                     </ul>

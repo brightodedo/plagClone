@@ -8,20 +8,20 @@ export default  function Collaboration() {
   return (
     <div className='collaboration-page'>
         <div className="collaboration-title">
-            <span>COLLABORAION</span>
+            <span>COLLABORATION</span>
             <p>Synapsing with our colleagues advances knowledge 
                 and enhances the impact of our scientific contributions
             </p>
         </div>
-        <div className="collaboration-botom">
+        <div className="collaboration-bottom">
             <div className="collaboration-collaborators">
-                <p>Collaborators</p>
-                <ul>
-                    <li><Link>Dan Cox</Link></li>
-                    <li><Link>Ryan Lalumiere</Link></li>
-                    <li><Link>Aaron Roseberry</Link></li>
-                    <li><Link>Javier Stern</Link></li>
-                    <li><Link>David Weinshenker</Link></li>
+                <p>Collaborators:</p>
+                <ul id='collaborator-names'>
+                    <li><a href="https://neuroscience.gsu.edu/profile/daniel-cox/" target='_blank'>Dan Cox</a></li>
+                    <li><a href="https://psychology.uiowa.edu/lalumiere-lab" target='_blank'>Ryan Lalumiere</a></li>
+                    <li><a href="https://roseberrylab.gsucreate.org/" target='_blank'>Aaron Roseberry</a></li>
+                    <li><a href="https://neuroinflammation.gsu.edu/director/" target='_blank'>Javier Stern</a></li>
+                    <li><a href="https://med.emory.edu/departments/human-genetics/research/weinshenker/index.html" target='_blank'>David Weinshenker</a></li>
                 </ul>
             </div>
             <div className="collaboration-image">

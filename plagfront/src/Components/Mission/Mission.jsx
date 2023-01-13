@@ -23,7 +23,7 @@ export default function Mission() {
                 <p>To become a Parent lab member, you need to have an enthusiastic interest in 
                     neuroscience, an eagerness to learn, and a strong work ethic. Previous 
                     knowledge of neuroscience and experience with our methods is not 
-                    always necessary, but welcome. Visit our <Link to='/contact'>Contact</Link> page to 
+                    always necessary, but welcome. Visit our span <Link to='/contact' id='mission-to-contact'>Contact</Link> page to 
                     reach out to Dr. Parent about joining the team.
                 </p>
             </div>

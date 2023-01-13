@@ -50,3 +50,7 @@
     object-position: center center;
     margin: 54px 0px 60px 0px;
 }
+
+#mission-to-contact{
+    display: inline-block;
+}

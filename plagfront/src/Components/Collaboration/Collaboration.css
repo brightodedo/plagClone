@@ -59,3 +59,25 @@
 #collaborator-names > li a {
     display: block;
 }
+
+.collaboration-title span {
+    background: transparent;
+    border: 0;
+    margin: 0 0 20px 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 1.35em;
+    font-size: 40px;
+}
+
+.collaboration-title p {
+    display: inline-block;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+    background: transparent;
+}
